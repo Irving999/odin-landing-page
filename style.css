@@ -27,7 +27,7 @@ body {
 
 .header-upper {
     display: flex;
-    gap: 200px;
+    gap: 125px;
 }
 
 .header-lower {
@@ -67,7 +67,7 @@ body {
 }
 
 .header-image {
-    width: 40%;
+    width: 400px;
     height: auto;
     background-color: #E5E7EB;
 }
@@ -105,6 +105,8 @@ ul {
     color: #7C7C7C;
     gap: 70px;
     flex-wrap: wrap;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .ingredients.first .text {
@@ -112,7 +114,7 @@ ul {
     
 }
 
-.text {
+.second-container .text {
     margin-top: 5px;
     width: 200px;
 }
@@ -123,7 +125,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    padding: 80px 0px;
+    padding: 80px 70px;
 }
 
 .quote-container {
@@ -156,8 +158,10 @@ ul {
     background-color: #3882F6;
     border-radius: 5px;
     flex-basis: 600px;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 35px 80px;
+    gap: 70px;
+    margin: 0px 50px;
 }
 
 .action-time .left {
@@ -175,8 +179,8 @@ ul {
 }
 
 .action-time .text {
-    width: 500px;
     font-weight: lighter;
+    display: block;
 }
 
 .action-time button {
