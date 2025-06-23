@@ -137,7 +137,6 @@ ul {
     color: #1F2937;
     font-weight: lighter;
     flex-basis: 525px;
-
 }
 
 .quoter {
@@ -190,3 +189,11 @@ ul {
     font-weight: bold;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: small;
+}
