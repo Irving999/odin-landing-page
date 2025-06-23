@@ -97,7 +97,13 @@ ul {
     background-color: #F9FAF8;
     flex-direction: column;
     align-items: center;
-    padding: 10px 100px;
+    padding: 60px 100px;
+}
+
+.second-container h3 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 22px;
 }
 
 .ingredients-container {
@@ -111,7 +117,6 @@ ul {
 
 .ingredients.first .text {
     flex-wrap: wrap;
-    
 }
 
 .second-container .text {
@@ -125,7 +130,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    padding: 80px 70px;
+    padding: 60px 70px;
 }
 
 .quote-container {
