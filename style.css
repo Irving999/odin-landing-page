@@ -7,7 +7,7 @@ body {
     margin: 0;
   }
 
-.header {
+.header-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -34,6 +34,7 @@ body {
 .header-lower {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
 .header-lower .left {
@@ -70,6 +71,11 @@ body {
     background-color: #E5E7EB;
 }
 
+.ingredients img {
+    width: 200px;
+    height: auto;
+}
+
 a {
     text-decoration: none;
     font-size: 18px;
@@ -83,4 +89,23 @@ ul {
     margin-left: auto;
     display: flex;
     gap: 20px;
+}
+
+.second-container {
+    display: flex;
+    background-color: #F9FAF8;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+
+.ingredients-container {
+    display: flex;
+    color: #7C7C7C;
+    gap: 30px;
+}
+
+.text {
+    margin-top: 5px;
 }
