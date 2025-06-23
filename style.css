@@ -27,7 +27,7 @@ body {
 
 .header-upper {
     display: flex;
-    gap: 125px;
+    gap: 115px;
 }
 
 .header-lower {
@@ -147,7 +147,7 @@ ul {
 }
 
 .quoter {
-    margin-left: 347px;
+    margin-left: 300px;
     font-weight: 700;
 }
 
@@ -172,6 +172,7 @@ ul {
 .action-time .left {
     display: flex;
     flex-direction: column;
+    gap: 2px;
     color: #E5E7EB;
 }
 
