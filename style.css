@@ -62,7 +62,7 @@ body {
     padding: 5px 25px;
     border-radius: 5px;
     border-style: none;
-    font-weight: 700;
+    font-weight: bold;
     align-self: flex-start;
 }
 
@@ -123,6 +123,7 @@ ul {
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    padding: 80px 0px;
 }
 
 .quote-container {
@@ -136,10 +137,56 @@ ul {
     color: #1F2937;
     font-weight: lighter;
     flex-basis: 525px;
+
 }
 
 .quoter {
     margin-left: 347px;
     font-weight: 700;
-
 }
+
+.fourth-container {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+}
+
+.action-time {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    flex-basis: 600px;
+    justify-content: center;
+    padding: 35px 80px;
+}
+
+.action-time .left {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.action-time .right {
+    align-self: center;
+}
+
+.action-time .main {
+    font-weight: bold;
+}
+
+.action-time .text {
+    width: 500px;
+    font-weight: lighter;
+}
+
+.action-time button {
+    background-color: #3882F6;
+    outline: #E5E7EB solid;
+    border-radius: 5px;
+    border-style: none;
+    color: #E5E7EB;
+    padding: 5px 25px;
+    font-weight: bold;
+}
+
